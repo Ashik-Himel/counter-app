@@ -12,7 +12,7 @@ export default function Counter() {
           <div className="mt-6 flex flex-wrap justify-center items-center gap-4">
             <a onClick={() => setCount(count + 1)} href="#" className="btn btn-primary text-white text-base normal-case">Add</a>
             <a onClick={() => setCount(count - 1)} href="#" className="btn btn-secondary text-white text-base normal-case">Reduce</a>
-            <a onClick={() => setCount(count - count)} href="#" className="btn btn-primary text-white text-base normal-case">Reset</a>
+            <a onClick={() => setCount(0)} href="#" className="btn btn-primary text-white text-base normal-case">Reset</a>
           </div>
         </div>
       </div>

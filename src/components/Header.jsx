@@ -3,7 +3,7 @@ export default function Header() {
     <header className="text-white py-6 border-b border-gray-700">
       <div className="container">
         <nav className="flex flex-col sm:flex-row justify-center sm:justify-between items-center gap-8">
-          <a href="#" className="text-3xl">React Project</a>
+          <a href="#" className="text-3xl">Counter App</a>
           <ul className="flex justify-center items-center gap-8">
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
